@@ -55,9 +55,9 @@
       "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
       "score": 0.94,
       "scoreDisplayMode": "numeric",
-      "numericValue": 1613.7387400000002,
+      "numericValue": 1638.7940767022803,
       "numericUnit": "millisecond",
-      "displayValue": "1.6 s",
+      "displayValue": "1.6\u00a0s",
       "scoringOptions": {
         "p10": 1800,
         "median": 3000
@@ -69,9 +69,9 @@
       "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
       "score": 0.98,
       "scoreDisplayMode": "numeric",
-      "numericValue": 1849.8232800000003,
+      "numericValue": 1848.063011522836,
       "numericUnit": "millisecond",
-      "displayValue": "1.8 s",
+      "displayValue": "1.8\u00a0s",
       "scoringOptions": {
         "p10": 2500,
         "median": 4000
@@ -83,9 +83,9 @@
       "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
       "score": 0.99,
       "scoreDisplayMode": "numeric",
-      "numericValue": 2148.412362428931,
+      "numericValue": 2137.4597162030504,
       "numericUnit": "millisecond",
-      "displayValue": "2.1 s",
+      "displayValue": "2.1\u00a0s",
       "scoringOptions": {
         "p10": 3387,
         "median": 5800
@@ -163,9 +163,9 @@
       "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "numericValue": 16,
+      "numericValue": 15.418642158827275,
       "numericUnit": "millisecond",
-      "displayValue": "20 ms",
+      "displayValue": "20\u00a0ms",
       "scoringOptions": {
         "p10": 200,
         "median": 600
@@ -179,7 +179,7 @@
       "scoreDisplayMode": "numeric",
       "numericValue": 72,
       "numericUnit": "millisecond",
-      "displayValue": "70 ms"
+      "displayValue": "70\u00a0ms"
     },
     "cumulative-layout-shift": {
       "id": "cumulative-layout-shift",
@@ -187,7 +187,7 @@
       "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "numericValue": 0,
+      "numericValue": 0.0,
       "numericUnit": "unitless",
       "displayValue": "0",
       "scoringOptions": {
@@ -239,7 +239,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 117,
       "numericUnit": "millisecond",
-      "displayValue": "Root document took 120 ms",
+      "displayValue": "Root document took 120\u00a0ms",
       "metricSavings": {
         "FCP": 0,
         "LCP": 0
@@ -276,7 +276,7 @@
       "scoreDisplayMode": "numeric",
       "numericValue": 4697.288484000001,
       "numericUnit": "millisecond",
-      "displayValue": "4.7 s"
+      "displayValue": "4.7\u00a0s"
     },
     "user-timings": {
       "id": "user-timings",
@@ -329,7 +329,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 959.48512,
       "numericUnit": "millisecond",
-      "displayValue": "Est savings of 960 ms",
+      "displayValue": "Est savings of 960\u00a0ms",
       "metricSavings": {
         "LCP": 950,
         "FCP": 950
@@ -501,7 +501,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 878.8440000000011,
       "numericUnit": "millisecond",
-      "displayValue": "0.9 s",
+      "displayValue": "0.9\u00a0s",
       "metricSavings": {
         "TBT": 0
       },
@@ -566,7 +566,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 248.83200000000022,
       "numericUnit": "millisecond",
-      "displayValue": "0.2 s",
+      "displayValue": "0.2\u00a0s",
       "metricSavings": {
         "TBT": 50
       },
@@ -733,7 +733,7 @@
             "networkRequestTime": 0.5560001134872437,
             "networkEndTime": 272.0509999990463,
             "finished": true,
-            "transferSize": 1412,
+            "transferSize": 1378.9503095246753,
             "resourceSize": 0,
             "statusCode": 301,
             "mimeType": "text/html",
@@ -749,7 +749,7 @@
             "networkRequestTime": 272.35000002384186,
             "networkEndTime": 444.4480000734329,
             "finished": true,
-            "transferSize": 25628,
+            "transferSize": 26150.403467134045,
             "resourceSize": 104235,
             "statusCode": 200,
             "mimeType": "text/html",
@@ -766,7 +766,7 @@
             "networkRequestTime": 398.3030000925064,
             "networkEndTime": 551.9120000600815,
             "finished": true,
-            "transferSize": 33702,
+            "transferSize": 33965.21567549725,
             "resourceSize": 277787,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -783,7 +783,7 @@
             "networkRequestTime": 398.5020000934601,
             "networkEndTime": 590.4080001115799,
             "finished": true,
-            "transferSize": 21148,
+            "transferSize": 21744.851787789477,
             "resourceSize": 63869,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -800,7 +800,7 @@
             "networkRequestTime": 398.59500002861023,
             "networkEndTime": 516.0509999990463,
             "finished": true,
-            "transferSize": 3429,
+            "transferSize": 3405.7827255760485,
             "resourceSize": 17493,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -817,7 +817,7 @@
             "networkRequestTime": 398.67000007629395,
             "networkEndTime": 580.3510000705719,
             "finished": true,
-            "transferSize": 1006,
+            "transferSize": 1045.9980032093915,
             "resourceSize": 244,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -834,7 +834,7 @@
             "networkRequestTime": 401.3970000743866,
             "networkEndTime": 596.3850001096725,
             "finished": true,
-            "transferSize": 3378,
+            "transferSize": 3285.4286806152704,
             "resourceSize": 6170,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -851,7 +851,7 @@
             "networkRequestTime": 399.36500012874603,
             "networkEndTime": 702.9360001087189,
             "finished": true,
-            "transferSize": 3837,
+            "transferSize": 3825.9848312410472,
             "resourceSize": 2720,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -868,7 +868,7 @@
             "networkRequestTime": 401.55800008773804,
             "networkEndTime": 1026.601000070572,
             "finished": true,
-            "transferSize": 1229,
+            "transferSize": 1257.9657466668968,
             "resourceSize": 114,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -885,7 +885,7 @@
             "networkRequestTime": 399.4480000734329,
             "networkEndTime": 1119.4810000658035,
             "finished": true,
-            "transferSize": 160176,
+            "transferSize": 157112.85030048862,
             "resourceSize": 158968,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -902,7 +902,7 @@
             "networkRequestTime": 402.54700005054474,
             "networkEndTime": 669.6650000810623,
             "finished": true,
-            "transferSize": 1778,
+            "transferSize": 1819.7872402836651,
             "resourceSize": 271,
             "statusCode": 200,
             "mimeType": "application/json",
@@ -919,7 +919,7 @@
             "networkRequestTime": 445.49000012874603,
             "networkEndTime": 819.5500000715256,
             "finished": true,
-            "transferSize": 9604,
+            "transferSize": 9570.118190847468,
             "resourceSize": 8456,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -936,7 +936,7 @@
             "networkRequestTime": 445.6340000629425,
             "networkEndTime": 1064.9350000619888,
             "finished": true,
-            "transferSize": 34071,
+            "transferSize": 33138.78766489165,
             "resourceSize": 32948,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -953,7 +953,7 @@
             "networkRequestTime": 445.70700001716614,
             "networkEndTime": 1137.6720000505447,
             "finished": true,
-            "transferSize": 135442,
+            "transferSize": 139451.00407826898,
             "resourceSize": 134262,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -970,7 +970,7 @@
             "networkRequestTime": 669.7700001001358,
             "networkEndTime": 1143.5590000152588,
             "finished": true,
-            "transferSize": 3394,
+            "transferSize": 3428.1694909948733,
             "resourceSize": 2272,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -987,7 +987,7 @@
             "networkRequestTime": 669.8190001249313,
             "networkEndTime": 1145.1240000724792,
             "finished": true,
-            "transferSize": 2417,
+            "transferSize": 2335.244495929224,
             "resourceSize": 1306,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1004,7 +1004,7 @@
             "networkRequestTime": 669.835000038147,
             "networkEndTime": 1145.3009999990463,
             "finished": true,
-            "transferSize": 3058,
+            "transferSize": 3180.059537821533,
             "resourceSize": 1948,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1021,7 +1021,7 @@
             "networkRequestTime": 669.8490000963211,
             "networkEndTime": 1145.2290000915527,
             "finished": true,
-            "transferSize": 3674,
+            "transferSize": 3677.0964574968634,
             "resourceSize": 2568,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1038,7 +1038,7 @@
             "networkRequestTime": 669.8620001077652,
             "networkEndTime": 1145.3669999837875,
             "finished": true,
-            "transferSize": 3132,
+            "transferSize": 3281.8641089105126,
             "resourceSize": 2030,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1055,7 +1055,7 @@
             "networkRequestTime": 669.8770000934601,
             "networkEndTime": 1145.4420000314713,
             "finished": true,
-            "transferSize": 3334,
+            "transferSize": 3238.0673317427745,
             "resourceSize": 2230,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1072,7 +1072,7 @@
             "networkRequestTime": 669.8910000324249,
             "networkEndTime": 1148.4700000286102,
             "finished": true,
-            "transferSize": 2807,
+            "transferSize": 2757.072158973996,
             "resourceSize": 1696,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1089,7 +1089,7 @@
             "networkRequestTime": 669.9060000181198,
             "networkEndTime": 1148.5670000314713,
             "finished": true,
-            "transferSize": 3619,
+            "transferSize": 3463.003072640275,
             "resourceSize": 2514,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1106,7 +1106,7 @@
             "networkRequestTime": 669.920000076294,
             "networkEndTime": 1173.1790000200272,
             "finished": true,
-            "transferSize": 16488,
+            "transferSize": 15830.371594241544,
             "resourceSize": 15368,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1123,7 +1123,7 @@
             "networkRequestTime": 669.932000041008,
             "networkEndTime": 1158.3730000257492,
             "finished": true,
-            "transferSize": 5925,
+            "transferSize": 6146.472773387192,
             "resourceSize": 4816,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1140,7 +1140,7 @@
             "networkRequestTime": 669.9480000734329,
             "networkEndTime": 1160.1650000810623,
             "finished": true,
-            "transferSize": 6153,
+            "transferSize": 5869.053213994293,
             "resourceSize": 5042,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1157,7 +1157,7 @@
             "networkRequestTime": 669.9590001106262,
             "networkEndTime": 1162.0940001010895,
             "finished": true,
-            "transferSize": 6311,
+            "transferSize": 6294.183312947224,
             "resourceSize": 5200,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1174,7 +1174,7 @@
             "networkRequestTime": 669.9700000286102,
             "networkEndTime": 1165.652999997139,
             "finished": true,
-            "transferSize": 10583,
+            "transferSize": 10382.345673483398,
             "resourceSize": 9472,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1191,7 +1191,7 @@
             "networkRequestTime": 669.9870001077652,
             "networkEndTime": 1169.9410001039505,
             "finished": true,
-            "transferSize": 8681,
+            "transferSize": 8744.907851576949,
             "resourceSize": 7572,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1208,7 +1208,7 @@
             "networkRequestTime": 670.0030001401901,
             "networkEndTime": 1170.7360000610352,
             "finished": true,
-            "transferSize": 4385,
+            "transferSize": 4508.678728406246,
             "resourceSize": 3280,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1225,7 +1225,7 @@
             "networkRequestTime": 670.0200001001358,
             "networkEndTime": 1155.7259999513626,
             "finished": true,
-            "transferSize": 6116,
+            "transferSize": 6145.635762763625,
             "resourceSize": 4996,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1242,7 +1242,7 @@
             "networkRequestTime": 670.0310000181198,
             "networkEndTime": 1156.932000041008,
             "finished": true,
-            "transferSize": 4038,
+            "transferSize": 4006.060621822789,
             "resourceSize": 2928,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1259,7 +1259,7 @@
             "networkRequestTime": 670.0440000295639,
             "networkEndTime": 1157.0429999828339,
             "finished": true,
-            "transferSize": 2460,
+            "transferSize": 2445.713829034469,
             "resourceSize": 1342,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1276,7 +1276,7 @@
             "networkRequestTime": 670.058000087738,
             "networkEndTime": 1170.8460000753403,
             "finished": true,
-            "transferSize": 1377,
+            "transferSize": 1433.3316107393962,
             "resourceSize": 270,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1293,7 +1293,7 @@
             "networkRequestTime": 670.0770000219345,
             "networkEndTime": 1173.0670000314713,
             "finished": true,
-            "transferSize": 9516,
+            "transferSize": 9141.0681789536,
             "resourceSize": 8402,
             "statusCode": 200,
             "mimeType": "image/webp",
@@ -1310,7 +1310,7 @@
             "networkRequestTime": 583.8899999856949,
             "networkEndTime": 674.2960000038147,
             "finished": true,
-            "transferSize": 1070,
+            "transferSize": 1113.8997727906933,
             "resourceSize": 224,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1327,7 +1327,7 @@
             "networkRequestTime": 584.1310000419617,
             "networkEndTime": 674.488000035286,
             "finished": true,
-            "transferSize": 1093,
+            "transferSize": 1065.3714725359648,
             "resourceSize": 257,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1344,7 +1344,7 @@
             "networkRequestTime": 584.3090001344681,
             "networkEndTime": 674.5710000991821,
             "finished": true,
-            "transferSize": 1108,
+            "transferSize": 1161.1994196086744,
             "resourceSize": 417,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1361,7 +1361,7 @@
             "networkRequestTime": 584.4340001344681,
             "networkEndTime": 677.7330000400543,
             "finished": true,
-            "transferSize": 1120,
+            "transferSize": 1102.9066101678068,
             "resourceSize": 334,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1378,7 +1378,7 @@
             "networkRequestTime": 584.517000079155,
             "networkEndTime": 677.5110000371933,
             "finished": true,
-            "transferSize": 1110,
+            "transferSize": 1113.4538211610286,
             "resourceSize": 285,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1395,7 +1395,7 @@
             "networkRequestTime": 585.2690000534058,
             "networkEndTime": 677.6410000324249,
             "finished": true,
-            "transferSize": 1189,
+            "transferSize": 1239.8183333277175,
             "resourceSize": 585,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1412,7 +1412,7 @@
             "networkRequestTime": 585.4010000228882,
             "networkEndTime": 679.9970000982285,
             "finished": true,
-            "transferSize": 1093,
+            "transferSize": 1049.4954803834978,
             "resourceSize": 267,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1429,7 +1429,7 @@
             "networkRequestTime": 606.1050000190735,
             "networkEndTime": 699.597000002861,
             "finished": true,
-            "transferSize": 1160,
+            "transferSize": 1155.8455614655024,
             "resourceSize": 318,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1439,14 +1439,14 @@
             "entity": "wikipedia.org"
           },
           {
-            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0…",
+            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0\u2026",
             "sessionTargetType": "page",
             "protocol": "data",
             "rendererStartTime": 607.1710000038147,
             "networkRequestTime": 607.1710000038147,
             "networkEndTime": 607.2350000143051,
             "finished": true,
-            "transferSize": 0,
+            "transferSize": 0.0,
             "resourceSize": 245,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1455,14 +1455,14 @@
             "experimentalFromMainFrame": true
           },
           {
-            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0…",
+            "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0\u2026",
             "sessionTargetType": "page",
             "protocol": "data",
             "rendererStartTime": 607.9560000896454,
             "networkRequestTime": 607.9560000896454,
             "networkEndTime": 608.0160000324249,
             "finished": true,
-            "transferSize": 0,
+            "transferSize": 0.0,
             "resourceSize": 150,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1478,7 +1478,7 @@
             "networkRequestTime": 608.625,
             "networkEndTime": 699.7720000743866,
             "finished": true,
-            "transferSize": 1160,
+            "transferSize": 1120.3004337368845,
             "resourceSize": 318,
             "statusCode": 200,
             "mimeType": "image/svg+xml",
@@ -1495,7 +1495,7 @@
             "networkRequestTime": 637.4080001115799,
             "networkEndTime": 724.8240000009537,
             "finished": true,
-            "transferSize": 2857,
+            "transferSize": 2919.818517573364,
             "resourceSize": 4687,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1512,7 +1512,7 @@
             "networkRequestTime": 637.574000120163,
             "networkEndTime": 730.4550000429153,
             "finished": true,
-            "transferSize": 9143,
+            "transferSize": 9459.340497143348,
             "resourceSize": 25831,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1529,7 +1529,7 @@
             "networkRequestTime": 637.9789999723434,
             "networkEndTime": 900.4290000200272,
             "finished": true,
-            "transferSize": 313912,
+            "transferSize": 308600.3199212827,
             "resourceSize": 1369941,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1546,7 +1546,7 @@
             "networkRequestTime": 928.8940000534058,
             "networkEndTime": 1027.4120000600815,
             "finished": true,
-            "transferSize": 2979,
+            "transferSize": 2887.2757934914,
             "resourceSize": 5792,
             "statusCode": 200,
             "mimeType": "text/css",
@@ -1563,7 +1563,7 @@
             "networkRequestTime": 929.305999994278,
             "networkEndTime": 1028.6629999876022,
             "finished": true,
-            "transferSize": 9012,
+            "transferSize": 9378.683125374646,
             "resourceSize": 26751,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1580,7 +1580,7 @@
             "networkRequestTime": 938.9019999504089,
             "networkEndTime": 1025.529000043869,
             "finished": true,
-            "transferSize": 986,
+            "transferSize": 990.0608553612814,
             "resourceSize": 0,
             "statusCode": 302,
             "mimeType": "text/html",
@@ -1596,7 +1596,7 @@
             "networkRequestTime": 946.0920000076294,
             "networkEndTime": 1032.654000043869,
             "finished": true,
-            "transferSize": 3916,
+            "transferSize": 4087.929616490945,
             "resourceSize": 13510,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1613,7 +1613,7 @@
             "networkRequestTime": 977.3200000524521,
             "networkEndTime": 1064.7970000505447,
             "finished": true,
-            "transferSize": 8814,
+            "transferSize": 8586.064686414578,
             "resourceSize": 58624,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1630,7 +1630,7 @@
             "networkRequestTime": 978.4589999914169,
             "networkEndTime": 1068.5640001296997,
             "finished": true,
-            "transferSize": 20352,
+            "transferSize": 19543.051709533815,
             "resourceSize": 115194,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1647,7 +1647,7 @@
             "networkRequestTime": 1025.739000082016,
             "networkEndTime": 1123.777999997139,
             "finished": true,
-            "transferSize": 1445,
+            "transferSize": 1487.6211426604277,
             "resourceSize": 254,
             "statusCode": 200,
             "mimeType": "text/javascript",
@@ -1664,7 +1664,7 @@
             "networkRequestTime": 1176.837000131607,
             "networkEndTime": 1263.642000079155,
             "finished": true,
-            "transferSize": 1820,
+            "transferSize": 1800.8522518971536,
             "resourceSize": 2734,
             "statusCode": 200,
             "mimeType": "image/vnd.microsoft.icon",
@@ -1681,7 +1681,7 @@
             "networkRequestTime": 1176.974000096321,
             "networkEndTime": 1263.7250000238419,
             "finished": true,
-            "transferSize": 2076,
+            "transferSize": 2147.4521423772203,
             "resourceSize": 1313,
             "statusCode": 200,
             "mimeType": "image/png",
@@ -1943,7 +1943,7 @@
       "scoreDisplayMode": "informative",
       "numericValue": 92.864,
       "numericUnit": "millisecond",
-      "displayValue": "90 ms",
+      "displayValue": "90\u00a0ms",
       "details": {
         "type": "table",
         "headings": [
@@ -1990,7 +1990,7 @@
       "scoreDisplayMode": "informative",
       "numericValue": 383.7985,
       "numericUnit": "millisecond",
-      "displayValue": "380 ms",
+      "displayValue": "380\u00a0ms",
       "details": {
         "type": "table",
         "headings": [
@@ -2737,27 +2737,27 @@
             "unusedBytes": 850,
             "children": [
               {
-                "name": "(inline) (function(){var…",
+                "name": "(inline) (function(){var\u2026",
                 "resourceBytes": 6780,
                 "unusedBytes": 149
               },
               {
-                "name": "(inline) (RLQ=window.RLQ…",
+                "name": "(inline) (RLQ=window.RLQ\u2026",
                 "resourceBytes": 214,
                 "unusedBytes": 0
               },
               {
-                "name": "(inline) function mfTemp…",
+                "name": "(inline) function mfTemp\u2026",
                 "resourceBytes": 229,
                 "unusedBytes": 229
               },
               {
-                "name": "(inline) (RLQ=window.RLQ…",
+                "name": "(inline) (RLQ=window.RLQ\u2026",
                 "resourceBytes": 2664,
                 "unusedBytes": 0
               },
               {
-                "name": "(inline) (window.NORLQ=w…",
+                "name": "(inline) (window.NORLQ=w\u2026",
                 "resourceBytes": 511,
                 "unusedBytes": 472
               }
@@ -3552,7 +3552,7 @@
                 "width": 150,
                 "height": 73
               },
-              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Eq…\" decoding=\"async\" width=\"150\" height=\"73\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.…\" data-file-width=\"4613\" data-file-height=\"2233\">",
+              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Eq\u2026\" decoding=\"async\" width=\"150\" height=\"73\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.\u2026\" data-file-width=\"4613\" data-file-height=\"2233\">",
               "nodeLabel": "div#main-tfa > figure.mw-halign-right > a.mw-file-description > img.mw-file-element",
               "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
             }
@@ -3571,7 +3571,7 @@
                 "width": 120,
                 "height": 197
               },
-              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.…\" decoding=\"async\" width=\"120\" height=\"197\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.png/25…\" data-file-width=\"252\" data-file-height=\"413\">",
+              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.\u2026\" decoding=\"async\" width=\"120\" height=\"197\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.png/25\u2026\" data-file-width=\"252\" data-file-height=\"413\">",
               "nodeLabel": "div#main-itd > figure.mw-halign-right > a.mw-file-description > img.mw-file-element",
               "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
             }
@@ -3681,7 +3681,7 @@
                       "width": 44,
                       "height": 44
                     },
-                    "snippet": "<label for=\"main-menu-input\" id=\"mw-mf-main-menu-button\" aria-hidden=\"true\" class=\"cdx-button cdx-button--size-large cdx-button--fake-button cdx-button--fake…\">",
+                    "snippet": "<label for=\"main-menu-input\" id=\"mw-mf-main-menu-button\" aria-hidden=\"true\" class=\"cdx-button cdx-button--size-large cdx-button--fake-button cdx-button--fake\u2026\">",
                     "nodeLabel": "header.header-container > div.minerva-header > nav.navigation-drawer > label#mw-mf-main-menu-button"
                   }
                 }
@@ -3868,7 +3868,7 @@
                       "height": 404
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Besas (griego: Βέσσας, romanización Bessas) (antes de 480-después de 554) fue u…"
+                    "nodeLabel": "Besas (griego: \u0392\u03ad\u03c3\u03c3\u03b1\u03c2, romanizaci\u00f3n Bessas) (antes de 480-despu\u00e9s de 554) fue u\u2026"
                   }
                 }
               ]
@@ -4079,7 +4079,7 @@
                 "height": 401
               },
               "snippet": "<table align=\"center\" cellpadding=\"2\" width=\"100%\" style=\"font-size:100%; text-align:left\">",
-              "nodeLabel": "\t\t\t\t\t\n\n\tWikcionario\nDiccionario con sinónimos\t\n\tWikilibros\nLibros de texto y ma…",
+              "nodeLabel": "\t\t\t\t\t\n\n\tWikcionario\nDiccionario con sin\u00f3nimos\t\n\tWikilibros\nLibros de texto y ma\u2026",
               "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
             },
             "subItems": {
@@ -4118,7 +4118,7 @@
                       "height": 110
                     },
                     "snippet": "<td>",
-                    "nodeLabel": "Wikcionario\nDiccionario con sinónimos"
+                    "nodeLabel": "Wikcionario\nDiccionario con sin\u00f3nimos"
                   }
                 },
                 {
@@ -4297,9 +4297,9 @@
       "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
       "score": 1,
       "scoreDisplayMode": "metricSavings",
-      "numericValue": 930723,
+      "numericValue": 886102.0096266845,
       "numericUnit": "byte",
-      "displayValue": "Total size was 909 KiB",
+      "displayValue": "Total size was 909\u00a0KiB",
       "details": {
         "type": "table",
         "headings": [
@@ -4435,7 +4435,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 220,
       "numericUnit": "millisecond",
-      "displayValue": "Est savings of 17 KiB",
+      "displayValue": "Est savings of 17\u00a0KiB",
       "metricSavings": {
         "FCP": 200,
         "LCP": 200
@@ -4490,7 +4490,7 @@
       "scoreDisplayMode": "metricSavings",
       "numericValue": 0,
       "numericUnit": "millisecond",
-      "displayValue": "Est savings of 146 KiB",
+      "displayValue": "Est savings of 146\u00a0KiB",
       "metricSavings": {
         "FCP": 0,
         "LCP": 0
@@ -4843,7 +4843,7 @@
     },
     "is-crawlable": {
       "id": "is-crawlable",
-      "title": "Page isn’t blocked from indexing",
+      "title": "Page isn\u2019t blocked from indexing",
       "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/).",
       "score": 1,
       "scoreDisplayMode": "binary",
@@ -4938,7 +4938,7 @@
       "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
       "score": 0,
       "scoreDisplayMode": "metricSavings",
-      "displayValue": "Est savings of 497 KiB",
+      "displayValue": "Est savings of 497\u00a0KiB",
       "metricSavings": {
         "FCP": 250,
         "LCP": 400
@@ -5181,7 +5181,7 @@
       "description": "Your first network request is the most important. [Reduce its latency](https://developer.chrome.com/docs/performance/insights/document-latency) by avoiding redirects, ensuring a fast server response, and enabling text compression.",
       "score": 0,
       "scoreDisplayMode": "metricSavings",
-      "displayValue": "Est savings of 270 ms",
+      "displayValue": "Est savings of 270\u00a0ms",
       "metricSavings": {
         "FCP": 250,
         "LCP": 250
@@ -5267,7 +5267,7 @@
                 "height": 0
               },
               "snippet": "<span class=\"mw-ui-button mw-ui-quiet\">",
-              "nodeLabel": " Todos los artículos destacados "
+              "nodeLabel": " Todos los art\u00edculos destacados "
             },
             "value": {
               "type": "numeric",
@@ -5291,7 +5291,7 @@
                 "height": 0
               },
               "snippet": "<ul class=\"minerva-languages\">",
-              "nodeLabel": "AragonésالعربيةAsturianuAymar aruБългарскиবিষ্ণুপ্রিয়া মণিপুরীBosanskiCatalàChavacano de Z…"
+              "nodeLabel": "Aragon\u00e9s\u0627\u0644\u0639\u0631\u0628\u064a\u0629AsturianuAymar aru\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u09ac\u09bf\u09b7\u09cd\u09a3\u09c1\u09aa\u09cd\u09b0\u09bf\u09af\u09bc\u09be \u09ae\u09a3\u09bf\u09aa\u09c1\u09b0\u09c0BosanskiCatal\u00e0Chavacano de Z\u2026"
             },
             "value": {
               "type": "numeric",
@@ -5415,7 +5415,7 @@
       "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
       "score": 0.5,
       "scoreDisplayMode": "metricSavings",
-      "displayValue": "Est savings of 276 KiB",
+      "displayValue": "Est savings of 276\u00a0KiB",
       "metricSavings": {
         "FCP": 0,
         "LCP": 0
@@ -5467,7 +5467,7 @@
                 "width": 120,
                 "height": 197
               },
-              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.…\" decoding=\"async\" width=\"120\" height=\"197\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.png/25…\" data-file-width=\"252\" data-file-height=\"413\">",
+              "snippet": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.\u2026\" decoding=\"async\" width=\"120\" height=\"197\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.png/25\u2026\" data-file-width=\"252\" data-file-height=\"413\">",
               "nodeLabel": "div#main-itd > figure.mw-halign-right > a.mw-file-description > img.mw-file-element"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Michael_Polanyi.png/250px-Michael_Polanyi.png",
@@ -5501,7 +5501,7 @@
                 "width": 412,
                 "height": 420
               },
-              "snippet": "<img alt=\"El primer campo profundo de Webb\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_D…\" decoding=\"async\" width=\"490\" height=\"500\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Fi…\" data-file-width=\"4537\" data-file-height=\"4630\">",
+              "snippet": "<img alt=\"El primer campo profundo de Webb\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_D\u2026\" decoding=\"async\" width=\"490\" height=\"500\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Fi\u2026\" data-file-width=\"4537\" data-file-height=\"4630\">",
               "nodeLabel": "El primer campo profundo de Webb"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg",
@@ -5531,7 +5531,7 @@
                 "width": 120,
                 "height": 180
               },
-              "snippet": "<img alt=\"El actor boliviano David Santalla\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/David_Santalla.j…\" decoding=\"async\" width=\"120\" height=\"180\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/David_Santalla.jpg/250…\" data-file-width=\"4000\" data-file-height=\"6000\">",
+              "snippet": "<img alt=\"El actor boliviano David Santalla\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/David_Santalla.j\u2026\" decoding=\"async\" width=\"120\" height=\"180\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/David_Santalla.jpg/250\u2026\" data-file-width=\"4000\" data-file-height=\"6000\">",
               "nodeLabel": "El actor boliviano David Santalla"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/David_Santalla.jpg/250px-David_Santalla.jpg",
@@ -5561,7 +5561,7 @@
                 "width": 20,
                 "height": 19
               },
-              "snippet": "<img alt=\"Wikcionario\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.…\" decoding=\"async\" width=\"35\" height=\"33\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/60…\" data-file-width=\"370\" data-file-height=\"350\">",
+              "snippet": "<img alt=\"Wikcionario\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.\u2026\" decoding=\"async\" width=\"35\" height=\"33\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/60\u2026\" data-file-width=\"370\" data-file-height=\"350\">",
               "nodeLabel": "Wikcionario"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/120px-Wiktionary-logo.svg.png",
@@ -5595,7 +5595,7 @@
                 "width": 20,
                 "height": 23
               },
-              "snippet": "<img alt=\"Wikispecies\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo…\" decoding=\"async\" width=\"35\" height=\"41\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/6…\" data-file-width=\"941\" data-file-height=\"1103\">",
+              "snippet": "<img alt=\"Wikispecies\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo\u2026\" decoding=\"async\" width=\"35\" height=\"41\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/6\u2026\" data-file-width=\"941\" data-file-height=\"1103\">",
               "nodeLabel": "Wikispecies"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/120px-Wikispecies-logo.svg.png",
@@ -5625,7 +5625,7 @@
                 "width": 20,
                 "height": 11
               },
-              "snippet": "<img alt=\"Wikinoticias\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.sv…\" decoding=\"async\" width=\"45\" height=\"25\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/120p…\" data-file-width=\"759\" data-file-height=\"415\">",
+              "snippet": "<img alt=\"Wikinoticias\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.sv\u2026\" decoding=\"async\" width=\"45\" height=\"25\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/120p\u2026\" data-file-width=\"759\" data-file-height=\"415\">",
               "nodeLabel": "Wikinoticias"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/120px-Wikinews-logo.svg.png",
@@ -5655,7 +5655,7 @@
                 "width": 20,
                 "height": 20
               },
-              "snippet": "<img alt=\"MediaWiki\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-i…\" decoding=\"async\" width=\"35\" height=\"35\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.sv…\" data-file-width=\"100\" data-file-height=\"100\">",
+              "snippet": "<img alt=\"MediaWiki\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-i\u2026\" decoding=\"async\" width=\"35\" height=\"35\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.sv\u2026\" data-file-width=\"100\" data-file-height=\"100\">",
               "nodeLabel": "MediaWiki"
             },
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/120px-MediaWiki-2020-icon.svg.png",
@@ -5740,7 +5740,7 @@
               "height": 298
             },
             "snippet": "<p>",
-            "nodeLabel": "Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo…"
+            "nodeLabel": "Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo\u2026"
           }
         ]
       },
@@ -5957,7 +5957,7 @@
       "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
       "score": 0,
       "scoreDisplayMode": "metricSavings",
-      "displayValue": "Est savings of 260 ms",
+      "displayValue": "Est savings of 260\u00a0ms",
       "metricSavings": {
         "FCP": 250,
         "LCP": 250
@@ -6190,7 +6190,7 @@
     "viewport-insight": {
       "id": "viewport-insight",
       "title": "Optimize viewport for mobile",
-      "description": "Tap interactions may be [delayed by up to 300 ms](https://developer.chrome.com/docs/performance/insights/viewport) if the viewport is not optimized for mobile.",
+      "description": "Tap interactions may be [delayed by up to 300\u00a0ms](https://developer.chrome.com/docs/performance/insights/viewport) if the viewport is not optimized for mobile.",
       "score": 1,
       "scoreDisplayMode": "numeric",
       "metricSavings": {
@@ -6220,7 +6220,7 @@
                 "width": 0,
                 "height": 0
               },
-              "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.…\">",
+              "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.\u2026\">",
               "nodeLabel": "head > meta"
             }
           }
@@ -7140,11 +7140,11 @@
     },
     "seo-mobile": {
       "title": "Mobile Friendly",
-      "description": "Make sure your pages are mobile friendly so users don’t have to pinch or zoom in order to read the content pages. [Learn how to make pages mobile-friendly](https://developers.google.com/search/mobile-sites/)."
+      "description": "Make sure your pages are mobile friendly so users don\u2019t have to pinch or zoom in order to read the content pages. [Learn how to make pages mobile-friendly](https://developers.google.com/search/mobile-sites/)."
     },
     "seo-content": {
       "title": "Content Best Practices",
-      "description": "Format your HTML in a way that enables crawlers to better understand your app’s content."
+      "description": "Format your HTML in a way that enables crawlers to better understand your app\u2019s content."
     },
     "seo-crawl": {
       "title": "Crawling and Indexing",
