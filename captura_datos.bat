@@ -1,16 +1,8 @@
 @echo off
 
-REM Ir al directorio donde está el .bat
-cd /d "%~dp0"
+echo Ejecutando captura completa...
 
-set fecha=%random%
-
-for /f %%i in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set fecha=%%i
-
-echo Fecha detectada: %fecha%
-
-echo Generando reporte %fecha%...
-lighthouse https://es.wikipedia.org --output=json --output-path=reportes/report_%fecha%.json
+python captura_metricas.py
 
 echo Agregando cambios a git...
 git add .
@@ -19,4 +11,5 @@ git commit -m "Reporte %fecha%"
 echo Haciendo push...
 git push origin master
 
+echo Proceso finalizado
 pause
