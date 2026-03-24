@@ -9,12 +9,9 @@ fecha = datetime.now().strftime("%Y-%m-%d")
 output_path = f"reportes/report_{fecha}.json"
 
 # Ejecutar Lighthouse
-proceso = subprocess.Popen([
-    "npx", "lighthouse",
-    "https://es.wikipedia.org",
-    "--output=json",
-    "--output-path=" + output_path
-])
+proceso = subprocess.Popen(
+    f'npx lighthouse https://es.wikipedia.org --output=json --output-path="{output_path}"',
+    shell=True)
 
 cpu_usage = []
 ram_usage = []
