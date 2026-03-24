@@ -1,5 +1,7 @@
 @echo off
 
+@echo off
+
 echo Ejecutando captura completa...
 
 python captura_metricas.py
