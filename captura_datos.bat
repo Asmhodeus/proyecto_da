@@ -2,6 +2,8 @@
 
 @echo off
 
+cd /d "D:\Universidad\10mo Semestre\Big data\Proyecto_desempeño_ambiental"
+
 echo Ejecutando captura completa...
 
 python captura_metricas.py
