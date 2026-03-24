@@ -10,7 +10,7 @@ output_path = f"reportes/report_{fecha}.json"
 
 # Ejecutar Lighthouse
 proceso = subprocess.Popen([
-    "lighthouse",
+    "npx", "lighthouse",
     "https://es.wikipedia.org",
     "--output=json",
     "--output-path=" + output_path
