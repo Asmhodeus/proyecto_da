@@ -53,12 +53,12 @@ ram_avg = sum(ram_usage)/len(ram_usage) if ram_usage else 0
 print("CPU promedio:", cpu_avg)
 print("RAM promedio:", ram_avg)
 
-# 🔥 Validar que el archivo existe antes de leerlo
+# Validar que el archivo existe antes de leerlo
 if not os.path.exists(output_path):
     print("Error: No se generó el JSON de Lighthouse")
     exit()
 
-# 🔥 Leer JSON con UTF-8 (FIX IMPORTANTE)
+# Leer JSON con UTF-8 
 try:
     with open(output_path, "r", encoding="utf-8") as f:
         data = json.load(f)
