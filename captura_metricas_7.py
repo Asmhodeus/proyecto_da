@@ -10,7 +10,7 @@ fecha = datetime.now().strftime("%Y-%m-%d")
 output_path = f"reportes/report_{fecha}.json"
 
 # Crear carpeta si no existe
-os.makedirs("reportes", exist_ok=True)
+os.makedirs("reportes_7", exist_ok=True)
 
 print("Ejecutando Lighthouse...")
 
