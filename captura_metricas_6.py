@@ -8,7 +8,7 @@ import os
 # Configuración
 URL = "https://edition.cnn.com/"
 fecha = datetime.now().strftime("%Y-%m-%d")
-output_dir = "reportes_3"
+output_dir = "reportes_6"
 output_path = f"{output_dir}/report_{fecha}.json"
 
 # Crear carpeta si no existe

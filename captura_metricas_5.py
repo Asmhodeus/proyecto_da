@@ -8,7 +8,7 @@ import os
 # Configuración
 URL = "https://www.bbc.com/"
 fecha = datetime.now().strftime("%Y-%m-%d")
-output_dir = "reportes_3"
+output_dir = "reportes_5"
 output_path = f"{output_dir}/report_{fecha}.json"
 
 # Crear carpeta si no existe
