@@ -95,4 +95,3 @@ except Exception as e:
     exit()
 
 print("✅ Reporte generado correctamente:", output_path)
-
