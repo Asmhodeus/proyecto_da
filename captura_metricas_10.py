@@ -7,7 +7,7 @@ import os
 
 # Fecha
 fecha = datetime.now().strftime("%Y-%m-%d")
-output_path = f"reportes/report_{fecha}.json"
+output_path = f"reportes_10/report_{fecha}.json"
 
 # Crear carpeta si no existe
 os.makedirs("reportes_10", exist_ok=True)
@@ -16,7 +16,7 @@ print("Ejecutando Lighthouse...")
 
 # Ejecutar Lighthouse
 proceso = subprocess.Popen(
-    f'npx lighthouse https://vimeo.com/es'
+    f'npx lighthouse https://www.dailymotion.com/co'
     f'--output=json '
     f'--output-path="{output_path}" '
     f'--quiet '

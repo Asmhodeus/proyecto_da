@@ -7,7 +7,7 @@ import os
 
 # Fecha
 fecha = datetime.now().strftime("%Y-%m-%d")
-output_path = f"reportes/report_{fecha}.json"
+output_path = f"reportes_5/report_{fecha}.json"
 
 # Crear carpeta si no existe
 os.makedirs("reportes_5", exist_ok=True)
