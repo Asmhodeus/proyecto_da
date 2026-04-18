@@ -1,0 +1,2 @@
+fecha,bytes_total,requests_total,total_transfer,promedio_por_request,peso_imagenes,peso_scripts,peso_css,fcp,lcp,speed_index,tbt,clst,cpu_time_ms,cpu_avg_percent,ram_avg_mb,energia_kwh,co2_kg,eficiencia_transferencia_kb_request,porcentaje_imagenes
+2026-04-18,5628995,148,5628995,38033.75,216510,3718342,475315,6179.634999999999,29915.75499999999,16654.480513890092,13223.499999999989,0.18611100000000003,25928.25600000043,0,9.12109375,0.010132191,0.004559485950000001,38.03375,0.03846334914136538
