@@ -51,9 +51,24 @@ for target in targets:
 
     while proceso.poll() is None:
         try:
-            p = psutil.Process(proceso.pid)
-            cpu_usage.append(p.cpu_percent(interval=1))
-            ram_usage.append(p.memory_info().rss / (1024 * 1024))
+            parent = psutil.Process(proceso.pid)
+
+        # incluir hijos (Chrome)
+            processes = [parent] + parent.children(recursive=True)
+
+            cpu_total = 0
+            ram_total = 0
+
+            for proc in processes:
+                try:
+                    cpu_total += proc.cpu_percent(interval=0.5)
+                    ram_total += proc.memory_info().rss / (1024 * 1024)
+                except:
+                    continue
+
+            cpu_usage.append(cpu_total)
+            ram_usage.append(ram_total)
+
         except:
             break
 
