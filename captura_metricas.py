@@ -76,4 +76,4 @@ data["custom_metrics"] = {
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
 
-print("Reporte generado correctamente:", output_path)
+print("✅ Reporte generado correctamente:", output_path)
