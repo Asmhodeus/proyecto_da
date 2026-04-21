@@ -53,7 +53,7 @@ for target in targets:
         try:
             parent = psutil.Process(proceso.pid)
 
-        # incluir hijos (Chrome)
+            # incluir hijos (Chrome)
             processes = [parent] + parent.children(recursive=True)
 
             cpu_total = 0
