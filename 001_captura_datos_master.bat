@@ -1,10 +1,10 @@
 @echo off
 
-cd /d "D:\Universidad\10mo Semestre\Big data\Proyecto_desempeño_ambiental"
-
 echo Ejecutando captura completa...
 
-python 001_captura_metricas_master.py
+cd /d "D:\Universidad\10mo Semestre\Big data\Proyecto_desempeño_ambiental"
+
+python "D:\Universidad\10mo Semestre\Big data\Proyecto_desempeño_ambiental\001_captura_metricas_master.py"
 
 echo Agregando cambios a git...
 git add .
